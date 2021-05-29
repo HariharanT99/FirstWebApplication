@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Rectangle";
+    Layout = "~/Views/Shared/_Arealayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Rectangle</title>
+    <link rel="shortcut icon" href="~/Content/TitleIcon.png" />
+    <link href="~/Content/Area.css" rel="stylesheet" />
+    <script src="~/Scripts/tool.js"></script>
+</head>
+
+<body>
+    <h1>Area of Rectangle</h1>
+
+    <p class="radio">Enter the values in Meter</p>
+
+    <span class="radio">Length </span><input type="number" id="rl" name="length" min="1" autofocus />&emsp;
+    <span class="radio">Width </span><input type="number" id="rw" name="width" min="1" />
+
+    <br /><br /><br />
+    <button onclick="rectangleArea()" accesskey="c">Calculate</button>
+    <br /><br />
+    <h2 id="dis"></h2>
+</body>
+</html>
+

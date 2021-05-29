@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Triangle";
+    Layout = "~/Views/Shared/_Arealayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Triangle</title>
+    <link rel="shortcut icon" href="~/Content/TitleIcon.png" />
+    <link href="~/Content/Area.css" rel="stylesheet" />
+    <script src="~/Scripts/tool.js"></script>
+</head>
+
+<body>
+    <h1>Area of Triangle</h1>
+
+    <div class="radio">
+        <p>Enter the Values in Meter</p>
+        Base <input type="number" id="tb" name="base" min="1" autofocus />&emsp;
+        Height <input type="number" id="th" name="height" min="1 !important" />
+    </div>
+
+    <br /><br />
+    <button onclick="triangleArea()" accesskey="c">Calculate</button>
+    <br /><br />
+    <h2 id="dis"></h2>
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="~/Content/TitleIcon.png" />
+    <link href="~/Content/Arealayout.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="topnav" style="position: fixed; top:0; left:0;">
+        <div class="left" style="width:100%;overflow:hidden;height:44px">
+            <a class="nav" href="~/Convertor/Circle" title="Circle">Area of Circle</a>
+            <a class="nav" href="~/Convertor/Square" title="Square">Area of Square</a>
+            <a class="nav" href="~/Convertor/Rectangle" title="Rectangle">Area of Rectangle</a>
+            <a class="nav" href="~/Convertor/Triangle" title="Triangle">Area of Triangle</a>
+        </div>
+        <div class="right">
+            <a class="nav" href="~/Convertor/Home" title="Home"><i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <div style="width: 100%; height: auto">
+        @RenderBody()
+    </div>
+</body>
+</html>

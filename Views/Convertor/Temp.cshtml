@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="shortcut icon" href="~/Content/TitleIcon.png" />
+    <link href="~/Content/temp.css" rel="stylesheet" />
+    <script src="~/Scripts/tool.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="right">
+        <a class="nav" href="~/Convertor/Home" title="Home"><i class="fas fa-home"></i></a>
+    </div>
+
+    <h1>Temperature Convertor</h1>
+
+    <input type="number" id="temp" name="temp"><br>
+
+    <div class="radio">
+        <input type="radio" id="cel" name="con" checked><span class="opt"> To Celsius</span>
+        &emsp;
+        <input type="radio" id="fahr" name="con"><span class="opt"> To Fahrenheit</span>
+    </div><br><br>
+
+    <button onclick="convertFunc()">Convert</button>
+
+    <h2 id="dis"></h2>
+</body>
+</html>

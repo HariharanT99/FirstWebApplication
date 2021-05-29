@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Circle";
+    Layout = "~/Views/Shared/_Arealayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Circle</title>
+    <link rel="shortcut icon" href="~/Content/TitleIcon.png" />
+    <link href="~/Content/Area.css" rel="stylesheet" />
+    <script src="~/Scripts/tool.js"></script>
+</head>
+
+<body>
+    <h1>Area of Circle</h1>
+    <div class="radio">
+        <input type="radio" id="r" name="para" class="radius" checked /><span class="para"> By Radius</span> &emsp;
+        <input type="radio" id="d" name="para" class="radius" /><span class="para"> By Diameter</span>
+    </div>
+    <p style="color: navy; font-size: 30px;">Enter the Value in Meter</p>
+    <input type="number" id="cir" class="circle" min="1" />
+    <br /><br />
+    <button onclick="circleArea()" accesskey="c">Calculate</button>
+    <br /><br />
+    <h2 id="dis"></h2>
+
+</body>
+</html>
+
