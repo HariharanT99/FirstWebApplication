@@ -137,7 +137,6 @@
     <Content Include="Content\TitleIcon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Index.html" />
     <Content Include="Scripts\tool.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
